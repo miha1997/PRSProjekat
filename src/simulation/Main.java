@@ -225,6 +225,8 @@ public class Main {
 
 
             int c = in.nextInt();
+            if(c == 3)
+                break;
 
             java.lang.System.out.println("\nUneti vreme trajanja simulacije u minutima: (0 za podrazumevano vreme od 24h)");
             duration = in.nextInt();
